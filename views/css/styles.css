@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Archivo", sans-serif;
+    background: #333;
+}
+
+.title {
+    color: #FFF;
+    font-family: "Rock Salt", cursive;
+    margin-bottom: 3rem;
+}
+
+form {
+    background: #FFF;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.form-title {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.form-field {
+    font-size: .8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.form-label {
+    margin: .6rem auto auto;
+}
+
+.form-control {
+    font-size: .8rem;
+}
+
+.btn-add {
+    color: #FFF;
+    background: #1bce47;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    font-size: .8rem;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+        color: #FFF;
+        background: #1bce47;
+        opacity: 0.8;
+    }
+}
+
+.table-container {
+    font-size: .8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: #FFF;
+    border-radius: 8px;
+}
+
+.table-title {
+    color: #333;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 1.5rem auto;
+}
+
+th {
+    font-weight: 500;
+    background: #292d33;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
